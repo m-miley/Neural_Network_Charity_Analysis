@@ -41,7 +41,7 @@ Weights Saved.</br>
 ![Screen Shot 2022-07-30 at 3 56 54 PM](https://user-images.githubusercontent.com/100544761/181995942-7ab33c31-8bd9-4472-b580-347ab3470f92.png)</br>
 
 Neural Network was compiled and fit.
-![Screen Shot 2022-07-30 at 2 34 01 PM](https://user-images.githubusercontent.com/100544761/181964831-e6eb7802-925c-45c5-8648-50fefc614ef1.png)
+![Screen Shot 2022-07-30 at 4 10 20 PM](https://user-images.githubusercontent.com/100544761/181996269-0c3b0a41-c897-4f33-b72c-d31024d0f1a2.png)
 
 Then evaluated and exported to H5 file for future use.  We see here the first implementation of Neural Network Model resulted in an Accuracy of 72.6%.  
 ![Screen Shot 2022-07-30 at 2 34 13 PM](https://user-images.githubusercontent.com/100544761/181964998-0ed577a4-4cd0-4b70-b887-1f1cf251887f.png)
