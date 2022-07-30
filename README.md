@@ -42,12 +42,12 @@ First iteration of model ran one *hidden layer* with 16 nodes and *relu activati
 
 *Checkpoints* were established to save weights every 5th *epoch* for ease and convenience for future reference if necessary.
 
-![Screen Shot 2022-07-30 at 3 56 54 PM](https://user-images.githubusercontent.com/100544761/181995942-7ab33c31-8bd9-4472-b580-347ab3470f92.png)
-Weights Saved.
-
 ![Screen Shot 2022-07-30 at 2 34 01 PM](https://user-images.githubusercontent.com/100544761/181964831-e6eb7802-925c-45c5-8648-50fefc614ef1.png)
 
 Neural Network was compiled and fit.
+
+![Screen Shot 2022-07-30 at 3 56 54 PM](https://user-images.githubusercontent.com/100544761/181995942-7ab33c31-8bd9-4472-b580-347ab3470f92.png)</br>
+Weights Saved.
 
 ![Screen Shot 2022-07-30 at 2 34 13 PM](https://user-images.githubusercontent.com/100544761/181964998-0ed577a4-4cd0-4b70-b887-1f1cf251887f.png)
 
