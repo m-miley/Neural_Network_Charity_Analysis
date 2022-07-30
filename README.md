@@ -62,11 +62,24 @@ Steps taken through many attempts at optimizing model performance are as follows
 4. Adjusted Neuron count for both layers to 32, 32, then best model.
 5. Tested 'tanh' then Re-established activation function for hidden and output layers according to best model.
 6. Increase epochs hyperparameter to 100
-7. Implemented keras tuner and implemented the best permutation out of 60.
+7. Implemented *keras tuner* and implemented the best permutation out of 60.
 8. Stratify train_test_split() and adjust train/test proportionality to 80/20
 
 ![Screen Shot 2022-07-30 at 2 49 10 PM](https://user-images.githubusercontent.com/100544761/181985528-a349279a-86a2-48f3-8832-33ecc568a275.png)
 
 Second iteration, whose only change was adding an additional layer of 16 neurons resulted in a .7% increase in accuracy.
+3rd - 5th iteration of model involved adjusting neuron count for each layer.  Each additional test run after that involved the adjustment of one or more of the strategies above.  No version of the model increased predictive accuracy above 74%, therefore, ultimately I was not able to increase model performance.  
 
-Each additional test run of model implemented one or a couple of the strategies above.  No version of the model increased predictive accuracy above 74%.   
+![Screen Shot 2022-07-30 at 3 06 35 PM](https://user-images.githubusercontent.com/100544761/181994637-aa3450ab-149f-4f9c-bef7-034204b73c96.png)
+
+Final *Loss* and *Accuracy* for best model decided by keras tuner hyperparameter adjustments.
+
+## Summary
+
+Building Neural Network Models involve much preprocessing to get it into usable form for the model to effectively read in and make calculatioins.  The data in this analysis was relatively clean beforehand and required minimal transformation.  When building the basic model, it's best to start simpler and then adjust and incorporate more complex structures according to data complexity.  It's important to keep in mind that overfitting is easily accomplished with deep learning neural networks and steps taken to mitigate this possibility.  Depending on the topic, an accuracy target measurement needs to be determined before hand so that the evaluation process can have an actionable outcome.  In terms of charity donations and funding, perhaps an accuracy score between 75-90% is adequate in accepting the predictability of a model as opposed to 95-99% for healthcare analysis.
+
+In conclusion for this analysis, an accuracy score of 75% was not reached and I would not suggest using this particular model.  If we want to continue to try this DNN model, more data can be gathered and features expanded to include more relevant data.  I would, however, recommend attempting Logistic Regression or Random Forest Classifier supervised models as they are lighter and perhaps just as accurate, respectively.  There is not terribly complex or over abundant data at hand here.  It is in tabular form, relatively clean, and prepared for simpler models such as these.  The next step should hence be in database evaluation and model exploration in search of a lighter, more accurate, and more economical model for production.
+
+**Email**
+mrmileyy@gmail.com</br>
+[LinkedIn](https://www.linkedin.com/in/mileymarshall)
