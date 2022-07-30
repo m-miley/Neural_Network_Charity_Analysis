@@ -46,7 +46,6 @@ First iteration of model ran one *hidden layer* with 16 nodes and *relu activati
 Weights Saved.
 
 ![Screen Shot 2022-07-30 at 2 34 01 PM](https://user-images.githubusercontent.com/100544761/181964831-e6eb7802-925c-45c5-8648-50fefc614ef1.png)
-
 Neural Network was compiled and fit.
 
 ![Screen Shot 2022-07-30 at 2 34 13 PM](https://user-images.githubusercontent.com/100544761/181964998-0ed577a4-4cd0-4b70-b887-1f1cf251887f.png)
