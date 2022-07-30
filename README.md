@@ -76,7 +76,7 @@ Second iteration, whose only change was adding an additional layer of 16 neurons
 Best Model from 60 cycles produces an accuracy score of 73%.  
 ![Screen Shot 2022-07-30 at 3 51 22 PM](https://user-images.githubusercontent.com/100544761/181995804-fe9a5f88-5325-4e65-96e1-b92f094e1fa4.png)
 
-</br>
+Plot Loss/Accuracy
 ![Screen Shot 2022-07-30 at 3 06 35 PM](https://user-images.githubusercontent.com/100544761/181994637-aa3450ab-149f-4f9c-bef7-034204b73c96.png)
 
 Final *Loss* and *Accuracy* for best model decided by keras tuner hyperparameter adjustments.
