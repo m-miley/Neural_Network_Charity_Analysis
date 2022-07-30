@@ -31,23 +31,22 @@ Categorical variables (strings) *encoded* to integers to be useful for neural ne
 
 ## Neural Network Model
 
+First iteration of model ran one *hidden layer* with 16 nodes and *relu activation function*.  The output layer used the *sigmoid* function to transform numerical values.  
 ![Screen Shot 2022-07-30 at 2 29 27 PM](https://user-images.githubusercontent.com/100544761/181960231-bd11adbe-b776-43e0-9d73-7147e8ea248d.png)
 
-First iteration of model ran one *hidden layer* with 16 nodes and *relu activation function*.  The output layer used the *sigmoid* function to transform numerical values.  
-
+*Checkpoints* were established to save weights every 5th *epoch* for ease and convenience for future reference if necessary.
 ![Screen Shot 2022-07-30 at 2 32 14 PM](https://user-images.githubusercontent.com/100544761/181962901-afa55f08-4687-4dc5-9582-575d382f2a03.png)
 
-*Checkpoints* were established to save weights every 5th *epoch* for ease and convenience for future reference if necessary.
-
-![Screen Shot 2022-07-30 at 3 56 54 PM](https://user-images.githubusercontent.com/100544761/181995942-7ab33c31-8bd9-4472-b580-347ab3470f92.png)</br>
 Weights Saved.
+![Screen Shot 2022-07-30 at 3 56 54 PM](https://user-images.githubusercontent.com/100544761/181995942-7ab33c31-8bd9-4472-b580-347ab3470f92.png)</br>
 
-![Screen Shot 2022-07-30 at 2 34 01 PM](https://user-images.githubusercontent.com/100544761/181964831-e6eb7802-925c-45c5-8648-50fefc614ef1.png)
 Neural Network was compiled and fit.
+![Screen Shot 2022-07-30 at 2 34 01 PM](https://user-images.githubusercontent.com/100544761/181964831-e6eb7802-925c-45c5-8648-50fefc614ef1.png)
 
+Then evaluated and exported to H5 file for future use.  We see here the first implementation of Neural Network Model resulted in an Accuracy of 72.6%.  
 ![Screen Shot 2022-07-30 at 2 34 13 PM](https://user-images.githubusercontent.com/100544761/181964998-0ed577a4-4cd0-4b70-b887-1f1cf251887f.png)
 
-Then evaluated and exported to H5 file for future use.  We see here the first implementation of Neural Network Model resulted in an Accuracy of 72.6%.  Following is an attempt at *optimizing* the basic NN model for increased accuracy by strategically adjusting *hyperparameters*.
+Following is an attempt at *optimizing* the basic NN model for increased accuracy by strategically adjusting *hyperparameters*.
 
 ## Deep Learning Neural Network Optimization
 
@@ -70,13 +69,13 @@ Second iteration, whose only change was adding an additional layer of 16 neurons
 **Keras Tuner**
 ![Screen Shot 2022-07-30 at 3 49 01 PM](https://user-images.githubusercontent.com/100544761/181995719-3a9dc48d-c7e6-4b5d-9600-2082b1f2d043.png)
 ![Screen Shot 2022-07-30 at 3 49 20 PM](https://user-images.githubusercontent.com/100544761/181995725-6728d359-e056-41df-a7b8-f50109050a5d.png)
-Best Model from 60 cycles produces an accuracy score of 73%.  
+*Best Model* from 60 cycles produces an accuracy score of 73%.  
 ![Screen Shot 2022-07-30 at 3 51 22 PM](https://user-images.githubusercontent.com/100544761/181995804-fe9a5f88-5325-4e65-96e1-b92f094e1fa4.png)
 
-Plot Loss/Accuracy
+Final *Loss* and *Accuracy* for best model decided by keras tuner hyperparameter adjustments.
 ![Screen Shot 2022-07-30 at 3 06 35 PM](https://user-images.githubusercontent.com/100544761/181994637-aa3450ab-149f-4f9c-bef7-034204b73c96.png)
 
-Final *Loss* and *Accuracy* for best model decided by keras tuner hyperparameter adjustments.
+
 
 ## Summary
 
