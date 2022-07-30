@@ -12,9 +12,11 @@ Analysis using *deep neural networks* as an advanced classification technique to
 
 ## Analysis
 
+### Data
+
 ![Screen Shot 2022-07-30 at 1 39 39 PM](https://user-images.githubusercontent.com/100544761/181937184-3eb96386-8bf2-4410-b3ad-3decf264cfb7.png)
 
-**Preprocessing**
+### Preprocessing
 
 - Target Variable: "IS_SUCCESSFUL".  1- successful use of money. 0- unsuccessful.
 - Features: ['APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATION', 'ASK_AMT']
@@ -32,7 +34,7 @@ Categorical variables (strings) encoded to integers to be useful for neural netw
  
  Split and Scale data into train/test groups.
 
-**Deep Neural Network Model**
+### Deep Neural Network Model
 
 ![Screen Shot 2022-07-30 at 2 29 27 PM](https://user-images.githubusercontent.com/100544761/181960231-bd11adbe-b776-43e0-9d73-7147e8ea248d.png)
 
