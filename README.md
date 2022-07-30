@@ -83,7 +83,7 @@ Final *Loss* and *Accuracy* for best model decided by keras tuner hyperparameter
 Building Neural Network Models involve much preprocessing to get it into usable form for the model to effectively read in and make calculations.  The data in this analysis was relatively clean beforehand and required minimal transformation.  When building the basic model, it's best to start simpler and then adjust and incorporate more complex structures according to data complexity.  It's important to keep in mind that overfitting is easily accomplished with deep learning neural networks and steps taken to mitigate this possibility.  Depending on the topic, an accuracy target measurement needs to be determined before hand so that the evaluation process can have an actionable outcome.  In terms of charity donations and funding, perhaps an accuracy score between 75-90% is adequate in accepting the predictability of a model as opposed to 95-99% for healthcare analysis.
 
 In conclusion for this analysis, an accuracy score of 75% was not reached and I would not suggest using this particular model.  If we want to continue testing this DNN model, more data should be gathered and features expanded to include more relevant data.  On the other hand, I would however recommend attempting Logistic Regression or Random Forest Classifier supervised models as they are lighter and perhaps just as accurate, respectively.  There is no terribly complex or over abundant data at hand here.  It is in tabular form, relatively clean, and prepared for simpler models such as these.  The next step should hence be in database evaluation and model exploration in search of a lighter, more accurate, and more economical model for production.
-</br></br>
-**Contact**</br>
+
+### Contact
 mrmileyy@gmail.com</br>
 [LinkedIn](https://www.linkedin.com/in/mileymarshall)
