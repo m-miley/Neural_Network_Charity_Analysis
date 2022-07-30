@@ -20,17 +20,14 @@ Analysis using *deep neural networks* as an advanced classification technique to
 - **Features**: ['APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATION', 'ASK_AMT']
 - **Irrelevant columns**: Some columns were dropped due to their irrelevance or heavy imbalance that would confuse the model (optimization phase). ['EIN', 'NAME'] - I.D. columns 
 
+*Bucketing* function groups rare values into "Other", thus shortening the list of values for chosen categories and resulting in less confusion or noise in model.  ['APPLICATION_TYPE', CLASSIFICATION']
 ![Screen Shot 2022-07-30 at 1 49 47 PM](https://user-images.githubusercontent.com/100544761/181937504-613f99ce-129f-401d-a699-f9081488bd49.png)
 
-*Bucketing* function groups rare values into "Other", thus shortening the list of values for chosen categories and resulting in less confusion or noise in model.  ['APPLICATION_TYPE', CLASSIFICATION']
-
-![Screen Shot 2022-07-30 at 1 52 06 PM](https://user-images.githubusercontent.com/100544761/181937621-be58617d-b167-44d3-9c2e-1f6d80e7dc3b.png)
-
 Categorical variables (strings) *encoded* to integers to be useful for neural network model.
-
-![Screen Shot 2022-07-30 at 2 27 55 PM](https://user-images.githubusercontent.com/100544761/181958731-3edecbb7-c924-4706-9cf4-3a92ea1c9ca9.png)
+![Screen Shot 2022-07-30 at 1 52 06 PM](https://user-images.githubusercontent.com/100544761/181937621-be58617d-b167-44d3-9c2e-1f6d80e7dc3b.png)
  
  Split data into train/test groups and *Scaled*.
+![Screen Shot 2022-07-30 at 2 27 55 PM](https://user-images.githubusercontent.com/100544761/181958731-3edecbb7-c924-4706-9cf4-3a92ea1c9ca9.png)
 
 ## Neural Network Model
 
