@@ -67,10 +67,10 @@ Second iteration, whose only change was adding an additional layer of 16 neurons
 3rd - 5th iteration of model involved adjusting neuron count for each layer.  Each additional test run after that involved the adjustment of one or more of the strategies above.  No version of the model increased predictive accuracy above 74%, therefore, ultimately I was not able to increase model performance.  
 
 **Keras Tuner**</br>
-Finally, the keras tuner library was implemented to seek further optimization.
+- Finally, the keras tuner library was implemented to seek further optimization.
 ![Screen Shot 2022-07-30 at 3 49 01 PM](https://user-images.githubusercontent.com/100544761/181995719-3a9dc48d-c7e6-4b5d-9600-2082b1f2d043.png)
 ![Screen Shot 2022-07-30 at 3 49 20 PM](https://user-images.githubusercontent.com/100544761/181995725-6728d359-e056-41df-a7b8-f50109050a5d.png)
-*Best Model* from 60 cycles produces an accuracy score of 73%.  
+- *Best Model* from 60 cycles produces an accuracy score of 73%.  
 ![Screen Shot 2022-07-30 at 3 51 22 PM](https://user-images.githubusercontent.com/100544761/181995804-fe9a5f88-5325-4e65-96e1-b92f094e1fa4.png)
 
 Final *Loss* and *Accuracy* for best model decided by keras tuner hyperparameter adjustments.
