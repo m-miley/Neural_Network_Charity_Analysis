@@ -32,7 +32,7 @@ Categorical variables (strings) *encoded* to integers to be useful for neural ne
 
 ![Screen Shot 2022-07-30 at 2 27 55 PM](https://user-images.githubusercontent.com/100544761/181958731-3edecbb7-c924-4706-9cf4-3a92ea1c9ca9.png)
  
- Split data into train/test groups and *Scale*.
+ Split data into train/test groups and *Scaled*.
 
 ### Neural Network Model
 
@@ -70,15 +70,22 @@ Steps taken through many attempts at optimizing model performance are as follows
 Second iteration, whose only change was adding an additional layer of 16 neurons resulted in a .7% increase in accuracy.
 3rd - 5th iteration of model involved adjusting neuron count for each layer.  Each additional test run after that involved the adjustment of one or more of the strategies above.  No version of the model increased predictive accuracy above 74%, therefore, ultimately I was not able to increase model performance.  
 
+**Keras Tuner**
+![Screen Shot 2022-07-30 at 3 49 01 PM](https://user-images.githubusercontent.com/100544761/181995719-3a9dc48d-c7e6-4b5d-9600-2082b1f2d043.png)
+![Screen Shot 2022-07-30 at 3 49 20 PM](https://user-images.githubusercontent.com/100544761/181995725-6728d359-e056-41df-a7b8-f50109050a5d.png)
+Best Model from 60 cycles produces an accuracy score of 73%.  
+![Screen Shot 2022-07-30 at 3 51 22 PM](https://user-images.githubusercontent.com/100544761/181995804-fe9a5f88-5325-4e65-96e1-b92f094e1fa4.png)
+
+</br>
 ![Screen Shot 2022-07-30 at 3 06 35 PM](https://user-images.githubusercontent.com/100544761/181994637-aa3450ab-149f-4f9c-bef7-034204b73c96.png)
 
 Final *Loss* and *Accuracy* for best model decided by keras tuner hyperparameter adjustments.
 
 ## Summary
 
-Building Neural Network Models involve much preprocessing to get it into usable form for the model to effectively read in and make calculatioins.  The data in this analysis was relatively clean beforehand and required minimal transformation.  When building the basic model, it's best to start simpler and then adjust and incorporate more complex structures according to data complexity.  It's important to keep in mind that overfitting is easily accomplished with deep learning neural networks and steps taken to mitigate this possibility.  Depending on the topic, an accuracy target measurement needs to be determined before hand so that the evaluation process can have an actionable outcome.  In terms of charity donations and funding, perhaps an accuracy score between 75-90% is adequate in accepting the predictability of a model as opposed to 95-99% for healthcare analysis.
+Building Neural Network Models involve much preprocessing to get it into usable form for the model to effectively read in and make calculations.  The data in this analysis was relatively clean beforehand and required minimal transformation.  When building the basic model, it's best to start simpler and then adjust and incorporate more complex structures according to data complexity.  It's important to keep in mind that overfitting is easily accomplished with deep learning neural networks and steps taken to mitigate this possibility.  Depending on the topic, an accuracy target measurement needs to be determined before hand so that the evaluation process can have an actionable outcome.  In terms of charity donations and funding, perhaps an accuracy score between 75-90% is adequate in accepting the predictability of a model as opposed to 95-99% for healthcare analysis.
 
-In conclusion for this analysis, an accuracy score of 75% was not reached and I would not suggest using this particular model.  If we want to continue to try this DNN model, more data can be gathered and features expanded to include more relevant data.  I would, however, recommend attempting Logistic Regression or Random Forest Classifier supervised models as they are lighter and perhaps just as accurate, respectively.  There is not terribly complex or over abundant data at hand here.  It is in tabular form, relatively clean, and prepared for simpler models such as these.  The next step should hence be in database evaluation and model exploration in search of a lighter, more accurate, and more economical model for production.
+In conclusion for this analysis, an accuracy score of 75% was not reached and I would not suggest using this particular model.  If we want to continue testing this DNN model, more data should be gathered and features expanded to include more relevant data.  On the other hand, I would however recommend attempting Logistic Regression or Random Forest Classifier supervised models as they are lighter and perhaps just as accurate, respectively.  There is no terribly complex or over abundant data at hand here.  It is in tabular form, relatively clean, and prepared for simpler models such as these.  The next step should hence be in database evaluation and model exploration in search of a lighter, more accurate, and more economical model for production.
 </br></br>
 **Contact**</br>
 mrmileyy@gmail.com</br>
