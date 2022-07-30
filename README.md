@@ -80,6 +80,6 @@ Building Neural Network Models involve much preprocessing to get it into usable 
 
 In conclusion for this analysis, an accuracy score of 75% was not reached and I would not suggest using this particular model.  If we want to continue to try this DNN model, more data can be gathered and features expanded to include more relevant data.  I would, however, recommend attempting Logistic Regression or Random Forest Classifier supervised models as they are lighter and perhaps just as accurate, respectively.  There is not terribly complex or over abundant data at hand here.  It is in tabular form, relatively clean, and prepared for simpler models such as these.  The next step should hence be in database evaluation and model exploration in search of a lighter, more accurate, and more economical model for production.
 
-**Email**
+**Contact**</br>
 mrmileyy@gmail.com</br>
 [LinkedIn](https://www.linkedin.com/in/mileymarshall)
