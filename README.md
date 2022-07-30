@@ -10,13 +10,11 @@
 
 Analysis using *deep neural networks* as an advanced classification technique to predict whether applicants for charity donation will be successful if extended endowment.  Data set includes information from over 34,000 organizations. 
 
-## Analysis
-
-### Data
+## Data
 
 ![Screen Shot 2022-07-30 at 1 39 39 PM](https://user-images.githubusercontent.com/100544761/181937184-3eb96386-8bf2-4410-b3ad-3decf264cfb7.png)
 
-### Preprocessing
+## Preprocessing
 
 - **Target Variable**: "IS_SUCCESSFUL".  1- successful use of money. 0- unsuccessful.
 - **Features**: ['APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATION', 'ASK_AMT']
@@ -34,7 +32,7 @@ Categorical variables (strings) *encoded* to integers to be useful for neural ne
  
  Split data into train/test groups and *Scaled*.
 
-### Neural Network Model
+## Neural Network Model
 
 ![Screen Shot 2022-07-30 at 2 29 27 PM](https://user-images.githubusercontent.com/100544761/181960231-bd11adbe-b776-43e0-9d73-7147e8ea248d.png)
 
@@ -52,7 +50,7 @@ Neural Network was compiled and fit.
 
 Then evaluated and exported to H5 file for future use.  We see here the first implementation of Neural Network Model resulted in an Accuracy of 72.6%.  Following is an attempt at *optimizing* the basic NN model for increased accuracy by strategically adjusting *hyperparameters*.
 
-### Deep Learning Neural Network Optimization
+## Deep Learning Neural Network Optimization
 
 Steps taken through many attempts at optimizing model performance are as follows:
 
